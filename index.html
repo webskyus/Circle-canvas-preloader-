@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Circle canvas preloader</title>
+	<style>
+		html {
+			min-height: 100vh;
+			overflow: hidden;
+		}
+
+		body {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			min-height: 100vh;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			background: #424242;
+			overflow: hidden;
+		}
+
+		canvas {
+			border-radius: 50%;
+			background: linear-gradient(145deg, #474747, #3b3b3b);
+			box-shadow: 20px 20px 60px #383838,
+				-20px -20px 60px #4c4c4c;
+		}
+	</style>
+</head>
+
+<body>
+
+	<canvas id="canvas" width="250" height="250"></canvas>
+
+
+	<script src="js/app.js"></script>
+</body>
+
+</html>
